@@ -1,0 +1,567 @@
+<!DOCTYPE html><html lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<title>Pusat Asesmen Pendidikan</title>
+
+		<link rel="icon" href="assets/img/logo.png" sizes="32x32">
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link href="vendor/bootstrap-4/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/font-awesome-6/css/all.min.css" rel="stylesheet">
+		<link href="vendor/wow/css/animate.min.css" rel="stylesheet">
+		<link href="vendor/swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="vendor/sweetalert2/sweetalert2.min.css" rel="stylesheet">
+		<link href="assets/css/front.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+        <!-- Preloader -->
+		<div id="loader" class="loader">
+            <div class="spinner">
+                <div>
+                    <p>Memuat Laman Pusat Asesmen Pendidikan</p>
+                </div>
+                <span class="bounce"></span>
+                <span class="bounce"></span>
+                <span class="bounce"></span>
+            </div>
+	    </div>
+		<div class="wrapper container">
+			<div class="header p-2 px-md-4 bg-white border-bottom shadow-sm">
+				<div class="container d-flex align-items-center">
+					<img src="assets/img/logo.png" height="70">
+					<div class="mx-3 d-flex flex-column">
+						<h6 class="my-0">PUSAT ASESMEN PENDIDIKAN</h6>
+						<p class="my-0 d-none d-md-block">Badan Standar, Kurikulum, dan Asesmen Pendidikan</p>
+						<p class="my-0 d-none d-md-block">Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi</p>
+					</div>
+					<div class="ml-auto d-none d-sm-block">
+						<ul class="social">
+							<li><a target="_blank" href="https://www.facebook.com/pusmendik.kemdikbud" class="social-facebook"><span class="fab fa-facebook"></span></a></li>
+							<li><a target="_blank" href="https://www.youtube.com/channel/UCUackBn4egyRRLT_nOZPdtw" class="social-youtube"><span class="fab fa-youtube"></span></a></li>
+							<!--<li><a target="_blank" href="https://twitter.com/pusmendik?lang=id" class="social-twitter"><span class="fab fa-twitter"></span></a></li>-->
+							<li><a target="_blank" href="https://www.instagram.com/pusmendik/?hl=id" class="social-instagram"><span class="fab fa-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light navbar-header">
+				<div class="container">
+					<button class="ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navMain">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/">Beranda</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tentang Kami</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="/tentang">Profil Lembaga</a>
+									<a class="dropdown-item" href="/konten/view-24">Subbag Tata Usaha</a>
+									<a class="dropdown-item" href="/konten/view-25">Substansi Asesmen Akademik</a>
+									<a class="dropdown-item" href="/konten/view-26">Substansi Asesmen Non Akademik</a>
+									<a class="dropdown-item" href="/konten/view-28">Substansi Inovasi dan Implementasi Asesmen</a>
+									<a class="dropdown-item" href="/konten/view-27">Substansi Analisis dan Pemanfaatan Hasil Asesmen</a>
+									<a class="dropdown-item" href="/konten/view-75">Video Profil Pusat Asesmen Pendidikan</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Produk</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="/produk/kategori-asesmen-terstandar">Asesmen Terstandar</a>
+									<a class="dropdown-item" href="/produk/kategori-platform-aplikasi">Platform/Aplikasi</a>
+									<a class="dropdown-item" href="/produk/kategori-konferensi">Konferensi</a>
+									<a class="dropdown-item" href="/buletin">Buletin</a>
+									<a class="dropdown-item" href="/lensa">Lensa</a>
+									<a class="dropdown-item" href="/produk/kategori-test">Tes</a>
+									<a class="dropdown-item" href="/publikasi">Publikasi/Modul</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/tatakelola">Tata Kelola</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/regulasi">Regulasi</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ZI-WBBM</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="/wbbm/perubahan">Manajemen Perubahan</a>
+									<a class="dropdown-item" href="/wbbm/tatalaksana">Penataan Tata Laksana</a>
+									<a class="dropdown-item" href="/wbbm/sdm">Managemen SDM</a>
+									<a class="dropdown-item" href="/wbbm/akuntabilitas">Akuntabilitas</a>
+									<a class="dropdown-item" href="/wbbm/pelayanan">Pelayanan Publik</a>
+									<a class="dropdown-item" href="/wbbm/pengawasan">Pengawasan</a>
+									<a class="dropdown-item" href="/testimoni">Testimoni</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/layanan">Pengaduan</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/kontak">Hubungi Kami</a>
+							</li>
+						</ul>
+						<form class="form-inline my-2 my-lg-0">
+							<!--<a href="/login" class="btn btn-primary btn-sm btn-login px-3" type="button">Login</a>-->
+							<a href="https://pusmendik.kemendikdasmen.go.id/tka/" class="btn btn-success btn-sm btn-radius px-3" type="button" target="_blank">TKA</a>
+							<a href="https://pusmendik.kemendikdasmen.go.id/an/simulasi_akm/" class="btn btn-success btn-sm btn-radius px-3" type="button" target="_blank">Ayo Coba AKM</a>
+						</form>
+					</div>
+				</div>
+			</nav>
+			<div class="px-2 pt-2 pb-1 bg-light fs-4">
+				<marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()" style="font-size: 16px; color: blue; font-weight: bold;">
+					<span class="blink_me">PUSAT ASESMEN PENDIDIKAN MENUJU WBBM</span>
+				</marquee>
+			</div><!--
+<section class="banner">
+	<div class="banner-overlay"></div>
+	<div class="banner-bottom"><img src="/assets/img/hero-shape.svg"></div>
+	<div class="container">
+		<div class="row mt-5 mb-5">
+			<div class="col-sm-6">
+				<div id="carousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div>
+								<h5 data-animation="animated fadeInDownBig">
+									Sekilas Tentang Pusmendik
+								</h5>
+								<br />
+								<p data-animation="animated slideInRight" data-delay="1s">
+									Pusat Asesmen Pendidikan atau lebih dikenal dengan Pusmendik adalah salah satu unit kerja dibawah Badan Standar, Kurikulum, dan Asesmen Pendidikan, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia
+								</p>
+								<p data-animation="animated flipInX" data-delay="2s">
+									<a href="/#tentang" class="btn btn-danger">
+										Selengkapnya
+										<span class="fa fa-chevron-down"></span>
+									</a>
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div>
+								<h5 data-animation="animated fadeInDownBig">
+									Tugas dan Fungsi Pusat Asesmen Pendidikan
+								</h5>
+								<ul>
+									<li data-animation="animated fadeInDownBig" data-delay="1s">
+										Penyiapan kebijakan teknis pelaksanaan asesmen pendidikan
+									</li>
+									<li data-animation="animated flipInX" data-delay="2s">
+										Penyusunan dan pelaksanaan asesmen pendidikan
+									</li>
+									<li data-animation="animated slideInRight" data-delay="3s">
+										Koordinasi dan fasilitasi pelaksanaan asesmen pendidikan
+									</li>
+									<li data-animation="animated flipInX" data-delay="4s">
+										Pemantauan, evaluasi, dan pelaporan di bidang asesmen pendidikan
+									</li>
+									<li data-animation="animated slideInRight" data-delay="5s">
+										Pelaksanaan urusan ketatausahaan Pusat
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 text-center">
+				<img src="/assets/img/substansi.fw.png" width="90%">
+				
+				<div class="bidang">
+					<a href="#" class="bidang-pusmenjar"><img src="/assets/img/bidang/pusmenjar.png"></a>
+					<a href="/konten/profil-bidang-inovasi-penilaian" class="bidang-inovasi"><img src="/assets/img/bidang/inovasi.png"></a>
+					<a href="/konten/profil-tata-usaha-pusmendik" class="bidang-pembelajaran"><img src="/assets/img/bidang/pembelajaran.png"></a>
+					<a href="/konten/profil-bidang-penilaian-akademik" class="bidang-akademik"><img src="/assets/img/bidang/akademik.png"></a>
+					<a href="/konten/profil-bidang-penilaian-non-akademik" class="bidang-non"><img src="/assets/img/bidang/non_akademik.png"></a>
+					<a href="/konten/profil-bidang-analisis-dan-pemanfaatan-hasil-penilaian" class="bidang-analisis"><img src="/assets/img/bidang/analisis.png"></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+-->
+
+<section>
+	<div class="banner-front">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="assets/img/banner/banner_an.png" width="100%">
+				</div>
+				
+				<div class="swiper-slide">
+					<img src="assets/img/banner/banner_jam_kerja.png" width="100%">
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/img/banner/banner-instansi.jpg" width="100%">
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+      		<div class="swiper-button-prev"></div>
+		</div>
+	</div>
+</section>
+
+<section class="mb-4 py-4">
+	<div class="container berita">
+		<h6 class="title">
+			<span class="lead">Berita Terkini</span>
+			<a class="float-right text-muted small" href="/berita">
+				Lihat Semua��
+				<img src="assets/img/icon-chevron-small-right.svg" alt=">" height="9">
+			</a>
+		</h6>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">				<div class="swiper-slide">
+					<a href="/konten/webinar-kebijakan-tes-kemampuan-akademik-tka" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20250717131537_Picture1webinarTKA.png/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Kamis, 17 Juli 2025</div>
+							<h6>Webinar Kebijakan Tes Kemampuan Akademik (TKA)</h6>
+						</div>
+					</a>
+				</div>				<div class="swiper-slide">
+					<a href="/konten/rapat-teknis-dan-pendataan-asesmen-nasional-tahun-2025" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20250707071704_DSC07621.JPG/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Senin, 07 Juli 2025</div>
+							<h6>Rapat Teknis dan Pendataan Asesmen Nasional Tahun 2025</h6>
+						</div>
+					</a>
+				</div>				<div class="swiper-slide">
+					<a href="/konten/kunjungan-kerja-spesifik-komisi-x-dpr-ri-bidang-pendidikan-ppdb-zonasi-implementasi-kurikulum-merdeka-dan-ujian-nasional-di-kota-yogyakarta" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20241123222937_Picture234.jpg/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Sabtu, 23 November 2024</div>
+							<h6>Kunjungan Kerja Spesifik Komisi X DPR RI Bidang Pendidikan (PPDB Zonasi, Implementasi Kurikulum Merdeka, dan Ujian Nasional) di Kota Yogyakarta</h6>
+						</div>
+					</a>
+				</div>				<div class="swiper-slide">
+					<a href="/konten/international-conference-assessment-and-learning-2024-learning-from-evidence-assessing-progress-and-impact" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20241113211455_Pictureical.jpg/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Rabu, 13 November 2024</div>
+							<h6>International Conference Assessment and Learning 2024 - Learning from Evidence: Assessing Progress and Impact</h6>
+						</div>
+					</a>
+				</div>				<div class="swiper-slide">
+					<a href="/konten/dari-data-ke-aksi-memanfaatkan-asesmen-nasional-dan-rapor-pendidikan" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20241018163748_WhatsApp%20Image%202024-10-18%20at%2016.15.39_6a8af1ac.jpg/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Jumat, 18 Oktober 2024</div>
+							<h6>Dari Data ke Aksi: Memanfaatkan Asesmen Nasional dan Rapor Pendidikan</h6>
+						</div>
+					</a>
+				</div>				<div class="swiper-slide">
+					<a href="/konten/pusmendik-go-to-acer" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20241014140008_acer1.jpg/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Senin, 14 Oktober 2024</div>
+							<h6>Pusmendik Go to ACER</h6>
+						</div>
+					</a>
+				</div>				<div class="swiper-slide">
+					<a href="/konten/sosialisasi-dan-persiapan-main-survey-pisa-2025-sinergi-dan-kolaborasi" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20240919111432_pisa2.jpg/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Senin, 30 September 2024</div>
+							<h6>Sosialisasi dan Persiapan Main Survey PISA 2025: Sinergi dan kolaborasi</h6>
+						</div>
+					</a>
+				</div>				<div class="swiper-slide">
+					<a href="/konten/kemitraan-diskusi-kelompok-terpumpun-dkt-pusat-asesmen-pendidikan-dan-dpr-ri-memperkuat-pemahaman-asesmen-nasional-dan-rapor-pendidikan" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20240911084628_Kemitraan%20Bandung%2001.PNG/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Rabu, 11 September 2024</div>
+							<h6>Kemitraan Diskusi Kelompok Terpumpun (DKT) Pusat Asesmen Pendidikan dan DPR RI Memperkuat Pemahaman Asesmen Nasional dan Rapor Pendidikan</h6>
+						</div>
+					</a>
+				</div>				<div class="swiper-slide">
+					<a href="/konten/pelatihan-tim-teknis-asesmen-nasional-tahun-2024-region-i" class="post">
+						<div class="post-image">
+							<img src="cover/cover_20240711170457_bersama_LatTimtekAN2024.JPG/index.html">
+						</div>
+						<div class="post-label">Berita</div>
+						<div class="post-body">
+							<div class="text-muted">Selasa, 16 Juli 2024</div>
+							<h6>Pelatihan Tim Teknis Asesmen Nasional Tahun 2024 Region I</h6>
+						</div>
+					</a>
+				</div>			</div>
+			<div class="swiper-bottom">
+				<div class="swiper-button-prev">
+					<img src="assets/img/icon-chevron-small-left.svg" alt="<">
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-next">
+					<img src="assets/img/icon-chevron-small-right.svg" alt=">">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="mt-5 bg-agenda">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h6 class="title">
+					<span class="lead">Artikel Terbaru</span>
+					<a class="float-right text-muted small" href="/artikel">
+						Lihat Semua��
+						<img src="assets/img/icon-chevron-small-right.svg" alt=">" height="9">
+					</a>
+				</h6>				<div class="media">
+					<img src="cover/cover_20241017114533_LAY02171.jpg/index.html" class="mr-3" width="80">
+					<div class="media-body">
+						<a class="post-title" href="/konten/survei-merdeka-belajar-beragam-manfaat-publik-minta-berlanjut">Survei Merdeka Belajar Beragam Manfaat, Publik Minta Berlanjut</a>
+						<p align="justify">
+</p><p>�S<em>Sebanyak 1.500 responden terlibat dalam survei untuk mengukur persepsi publik terhadap program Merdeka Belajar. Banyak yang merasakan manfaatnya dan menilai program ini mesti berlanjut</em><em>⬝</em></p><p><em></em></p><p .=""></p>
+
+						<p></p>
+					</div>
+				</div>				<div class="media">
+					<img src="cover/cover_20240522150132_irna-02.PNG/index.html" class="mr-3" width="80">
+					<div class="media-body">
+						<a class="post-title" href="/konten/gladi-bersih-uji-kesetaraan-2024-di-kota-gorontalo">Gladi Bersih Uji Kesetaraan 2024 di Kota Gorontalo</a>
+						<p align="justify">
+</p><p>Uji kesetaraan adalah proses asesmen yang menyetarakan hasil pendidikan nonformal dengan pendidikan formal, Uji Kesetaran memiliki fungsi sebagai pengakuan setara peserta didik dari pendidikan nonformal dan informal dengan �pendidikan formal.</p><p style="text-align: . . . "></p>
+
+						<p></p>
+					</div>
+				</div>				<div class="media">
+					<img src="cover/cover_20230131124350_international%20edu_Pusmendik.png/index.html" class="mr-3" width="80">
+					<div class="media-body">
+						<a class="post-title" href="/konten/hari-pendidikan-internasional-2023-berinvestasi-pada-manusia-memprioritaskan-pendidikan">Hari Pendidikan Internasional 2023: "Berinvestasi pada Manusia, Memprioritaskan Pendidikan"</a>
+						<p align="justify">
+</p><p style="text-align: justify;" data-mce-style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;" data-mce-style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Tanggal 24 Januari lalu kita memperingati Hari Pendidikan . . . </span></p>
+
+						<p></p>
+					</div>
+				</div>			</div>
+			<div class="col-sm-6">
+				<h6 class="title">
+					<span class="lead">Pengumuman</span>
+					<a class="float-right text-muted small" href="/pengumuman">
+						Lihat Semua��
+						<img src="assets/img/icon-chevron-small-right.svg" alt=">" height="9">
+					</a>
+				</h6>				<div class="media">
+					<img src="cover/cover_20251006123607_cover-lapiran-ppp3.PNG/index.html" class="mr-3" width="80">
+					<div class="media-body">
+						<a class="post-title" href="/konten/pengumuman-hasil-seleksi-administrasi-ppp">Pengumuman-Hasil-Seleksi Administrasi PPP</a>
+						<div class="text-muted">Senin, 06 Oktober 2025</div>
+						<p align="justify">
+</p><p> Nomor:22029/A.A3/AL.01/2025 6 Oktober 2025Lampiran : Satu lembarHal: Pengumuman Hasil Seleksi Administrasi Uji KompetensiJabatan Fungsional Pengembang Penilaian Pendidikan . . . </p>
+
+						<p></p>
+					</div>
+				</div>				<div class="media">
+					<img src="cover/cover_20250923101609_WhatsApp%20Image%202025-09-23%20at%2010.14.23_631f291f.jpg/index.html" class="mr-3" width="80">
+					<div class="media-body">
+						<a class="post-title" href="/konten/uji-kompetensi-jabatan-fungsional-pengembang-penilaian-pendidikan">Uji Kompetensi Jabatan Fungsional Pengembang Penilaian Pendidikan</a>
+						<div class="text-muted">Selasa, 23 September 2025</div>
+						<p align="justify">
+</p><p>Berdasarkan Surat Nomor 20545/A.A3/AL.01/2025, dalam rangka peningkatan jenjang karier dan mengisi formasi Jabatan Fungsional Pengembang Penilaian Pendidikan, Kementerian . . . </p>
+
+						<p></p>
+					</div>
+				</div>				<div class="media">
+					<img src="cover/cover_20250604094839_Postingan%20IG%20Permendikdasmen%20tentang%20TKA.png/index.html" class="mr-3" width="80">
+					<div class="media-body">
+						<a class="post-title" href="/konten/peraturan-menteri-pendidikan-dasar-dan-menengah-republik-indonesia-nomor-9-tahun-2025-tentang-tes-kemampuan-akademik">Peraturan Menteri Pendidikan Dasar dan Menengah Republik Indonesia Nomor 9 Tahun 2025 Tentang Tes Kemampuan Akademik</a>
+						<div class="text-muted">Rabu, 04 Juni 2025</div>
+						<p align="justify">
+</p><p>Peraturan Menteri Pendidikan Dasar dan Menengah Republik Indonesia Nomor 9 Tahun 2025 Tentang Tes Kemampuan . . . </p>
+
+						<p></p>
+					</div>
+				</div>			</div>
+		</div>
+	</div>
+</section>
+<section class="my-4 py-4">
+	<div class="container">
+		<h6 class="title">
+			<span class="lead">Foto dan Video</span>
+			<a class="float-right text-muted small" href="javascript:;">
+				Lihat Semua��
+				<img src="assets/img/icon-chevron-small-right.svg" alt=">" height="9">
+			</a>
+		</h6>
+		<div class="row mt-4">
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iwcC17qeFi4" allowfullscreen=""></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gol_-e4Vt_s" allowfullscreen=""></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ukNxwCtGzZU" allowfullscreen=""></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-4">
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FejhWv-OTqk" allowfullscreen=""></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rrmzIoNXq6M" allowfullscreen=""></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oVIE0PN05Kg" allowfullscreen=""></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-4">
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bgx-_3AneDY" allowfullscreen=""></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lS6fk-2IGts" allowfullscreen=""></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PSP4uTAHdAs" allowfullscreen=""></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="mt-4 pb-5">
+	<div class="container produk">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">				<div class="swiper-slide">
+					<div class="produk-items">
+						<a href="javascript:;"><img src="produk/gambar-24/index.html"></a>
+					</div>
+				</div>				<div class="swiper-slide">
+					<div class="produk-items">
+						<a href="javascript:;"><img src="produk/gambar-23/index.html"></a>
+					</div>
+				</div>				<div class="swiper-slide">
+					<div class="produk-items">
+						<a href="javascript:;"><img src="produk/gambar-21/index.html"></a>
+					</div>
+				</div>				<div class="swiper-slide">
+					<div class="produk-items">
+						<a href="javascript:;"><img src="produk/gambar-20/index.html"></a>
+					</div>
+				</div>				<div class="swiper-slide">
+					<div class="produk-items">
+						<a href="javascript:;"><img src="produk/gambar-19/index.html"></a>
+					</div>
+				</div>				<div class="swiper-slide">
+					<div class="produk-items">
+						<a href="javascript:;"><img src="produk/gambar-18/index.html"></a>
+					</div>
+				</div>				<div class="swiper-slide">
+					<div class="produk-items">
+						<a href="javascript:;"><img src="produk/gambar-17/index.html"></a>
+					</div>
+				</div>			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-bottom">
+				<div class="swiper-button-prev">
+					<img src="assets/img/icon-chevron-small-left.svg" alt="<">
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-next">
+					<img src="assets/img/icon-chevron-small-right.svg" alt=">">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>		<footer class="footer mt-5 p-5 text-center">
+			<h6>Hak Cipta � 2022-2024 Pusat Asesmen Pendidikan</h6>
+			<p class="my-0">Jalan Gardu, Srengseng Sawah, Jagakarsa, Jakarta Selatan 12640</p>
+			<p class="my-0">Telepon (021) 3505897</p>
+		</footer>
+		
+		</div>
+		<div class="floating-button blink_me">
+			<a href="/layanan/survey" class="btn btn-sm btn-danger"><span class="fa fa-solid fa-paper-plane"></span> Survey Kepuasan</a>
+		</div>
+
+		<div class="modal fade modal-preview" tabindex="-1" role="dialog" aria-labelledby="previewModal" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Preview</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">�</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="" class="img-fluid">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+            var baseURL = '/';
+            var uniqueID = 'd4a01757052972b6a7c2f38560916c1c';
+        </script>
+
+		<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+		<script src="vendor/jquery/jquery.form.min.js"></script>
+		<script src="vendor/bootstrap-4/js/bootstrap.min.js"></script>
+        <script src="vendor/wow/js/wow.min.js"></script>
+		<script src="vendor/swiper/js/swiper.min.js"></script>
+		<script src="vendor/sweetalert2/sweetalert2.min.js"></script>
+		<script src="assets/js/front.min.js"></script>
+	
+
+</body></html>
